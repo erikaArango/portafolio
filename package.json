@@ -1,0 +1,26 @@
+{
+    " nombre " : " portafolio " ,
+    " versión " : " 1.0.0 " ,
+    " main " : " src / index.html " ,
+    " licencia " : " MIT " ,
+    " scripts " : {
+      " htmlhint " : " htmlhint src / *. html test / *. html " ,
+      " eslint " : " eslint --ext .js src / test / " ,
+      " pretest " : " npm ejecutar eslint && npm ejecutar htmlhint " ,
+      " prueba " : " broma --verbosa - cobertura " ,
+      " informe-de-cobertura-abierta " : " abridor ./coverage/lcov-report/index.html " ,
+      " inicio " : " servir ./src " ,
+      " implementar " : " gh-pages -d src "
+    },
+    " dependencias " : {
+      " @ babel / core " : " ^ 7.6.2 " ,
+      " @ babel / plugin-transform-modules-commonjs " : " ^ 7.6.0 " ,
+      " babel-jest " : " ^ 24.9.0 " ,
+      " eslint " : " ^ 5.9.0 " ,
+      " gh-pages " : " ^ 2.1.1 " ,
+      " htmlhint " : " ^ 0.11.0 " ,
+      " broma " : " ^ 24.9.0 " ,
+      " abridor " : " ^ 1.5.1 " ,
+      " servir " : " ^ 11.0.0 "
+    }
+  }
