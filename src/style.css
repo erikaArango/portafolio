@@ -4,6 +4,26 @@
 }
 
 .conoceme{
-    color: #21CDB4;
-    margin: 10px 10px 10px 10px;
+    position: absolute;
+    width: 273px;
+    height: 84px;
+    left: 780px;
+    top: 789px;
+    color: white;
+    background: rgba(33, 205, 180, 0.69);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 49px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: #FFFFFF;
+    border: 21CDB4;
+    border-bottom: 21CDB4;
+    border-style: unset;
+
+}
+
+.img2{
+    width: 200px;
+    
 }
