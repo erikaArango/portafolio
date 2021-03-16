@@ -11,21 +11,34 @@ nav {
     padding-right: 2rem;
 }
 
+hr{
+position: absolute;
+width: 1082px;
+height: 0px;
+left: 168px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.navbar-expand-lg {
+  background-color:#fff;
+  height: 57px;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color:#000;
+    color:#9C1B7E ;
     font-size: 1.3rem;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     margin: 1.5rem;
 }
 
 nav li>a {
     position: relative;
-    color: #000;
+    color:#9C1B7E;
     text-decoration: none;
 }
 
 nav li>a:hover {
-    color: #000;
+    color:#9C1B7E;
 }
 
 nav li>a:before {
@@ -90,64 +103,69 @@ nav i {
     height: 50vh;
   }
 
+  .projectTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin: -8px 0px 24px;
+  }
+
+  .projectText{
+    font-family: Poppins;
+    font-size: 20px;
+  }
+
   #imgBurger{
-    width: 16vw;
-    height: 32vh;
-    margin: 67px 106px;
+    width: 238px;
+    height: 238px;
+    margin: 1px 123px 96px 267px;
   }
 
   #imgONU{
-    width: 16vw;
-    height: 32vh;
-    margin: 70px 1026px;
+    width: 238px;
+    height: 238px;
+    margin: 33px 1001px;
   }
 
   #imgSocialVeg{
-    width: 16vw;
-    height: 32vh;
-    margin: 67px 106px;
+    width: 238px;
+    height: 238px;
+    margin: 1px 123px 96px 267px;
   }
   
   #imgPokedatos{
-    width: 16vw;
-    height: 32vh;
-    margin: 70px 1026px;
+    width: 238px;
+    height: 238px;
+    margin: 33px 1001px;
   }
 
   #imgCipher{
-    width: 16vw;
-    height: 32vh;
-    margin: 67px 106px;
+    width: 238px;
+    height: 238px;
+    margin: 1px 123px 96px 267px;
   }
 
   #imgTrivia{
-    width: 16vw;
-    height: 32vh;
-    margin: 70px 1026px;
+    width: 238px;
+    height: 238px;
+    margin: 33px 1001px;
   }
 
 
-  .proyectos{
-      
-  }
 
   #textP1{
-    margin: -380px 339px 10px 536px;
-
+    margin: -297px 339px 10px 609px;
   }
 
   #textP3{
-    margin: -380px 339px 10px 536px;
-
+    margin: -297px 339px 10px 609px;
   }
 
   #textP5{
-    margin: -380px 339px 10px 536px;
-
+    margin: -188px 339px 10px 536px;
   }
 
   #textP2{
-    margin: -321px 23px 71px 131px;
+    margin: -235px 26px 70px 305px;
   }
 
   #textP4{
@@ -157,23 +175,14 @@ nav i {
   #textP6{
     margin: -321px 22px 70px 9px;
   }
+    
 
-  
-
-  .h1{
-    font-family: 'Montserrat', sans-serif;
-    font-family: Poppins;
-    font-size: 2rem;
-    margin: 0px 13px 25px;
+  .Projects{
+    height: 233px;
+    margin: 9px;
 
   }
-
-  .h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-  }
-
-  
+    
 
   /*botones code y demo*/
 
@@ -184,8 +193,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP1Code{
@@ -195,8 +204,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP2Demo{
@@ -205,9 +214,9 @@ nav i {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     border-style: unset;
-    margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    margin: 11px 31px 8px 213px;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP2Code{
@@ -217,8 +226,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP3Demo{
@@ -228,8 +237,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP3Code{
@@ -239,8 +248,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP4Demo{
@@ -250,8 +259,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP4Code{
@@ -261,8 +270,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP5Demo{
@@ -272,8 +281,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP5Code{
@@ -283,8 +292,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
 
@@ -295,8 +304,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #btnP6Code{
@@ -306,14 +315,14 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 8vw;
-    height: 5vh;
+    width: 7vw;
+    height: 4vh;s
   }
 
-  h3{
+  .buttonFont{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 22px;
     color:black;
   }
 
@@ -361,7 +370,7 @@ nav i {
 }
   
 #log{
-    margin: 5px 15px 38px 32px;
+  margin: 38px 15px 38px 32px;
 }
 
 #herramientas{

@@ -1,146 +1,193 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Erika Arango</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Quicksand" rel="stylesheet">
-  </head>
-   <!--Home-->
-   <!--barra de navegacion-->
-   <section id="particles-js" class="section home">
-   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="col-md-10 col-12 mx-auto">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav  ml-auto pr-4">
+</head>
+<!--Home-->
+<!--barra de navegacion-->
+<section id="particles-js" class="section home">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <img src="../src/imagenes/log.png" id="log">
+        <div class="col-md-10 col-12 mx-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class=" navbar-nav  ml-auto pr-4">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#portafolio">PROYECTOS </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">SOBRE MI</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACTAME</a>
-                </li>
-
-            </ul>
-            <a href="https://www.linkedin.com/in/erika-alejandra-arango-velez-433609208/" target="_blank" title="Linkedin"> <i class="fab fa-linkedin "></i>
-            </a>
-            <a href="https://github.com/erikaArango" target="_blank" title="Github"><i class="fab fa-github "></i></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio">PROYECTOS </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">SOBRE MI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACTAME</a>
+                    </li>
+                </ul>
+                <a href="https://www.linkedin.com/in/erika-alejandra-arango-velez-433609208/" target="_blank"
+                    title="Linkedin"> <i class="fab fa-linkedin "></i>
+                </a>
+                <a href="https://github.com/erikaArango" target="_blank" title="Github"><i
+                        class="fab fa-github "></i></a>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 </section>
-<!----> 
-
-  <div id="containerHome">
-    <img src="../src/imagenes/mi logo developer.png" alt="logo" id="logo" >
+<!---->
+<div id="containerHome">
+    <img src="../src/imagenes/mi logo developer.png" alt="logo" id="logo">
     <button type="button" class="conoceme">CONOCEME</button>
-  </div>
-  <!--Proyectos-->
-  <section id="portafolio"> 
-    <img src="../src/imagenes/log.png" id="log" >
-    <!--1--> 
-    <div class="proyeto1">
-        <img src="../src/imagenes/12.png" id="imgBurger" >
+</div>
+<!--Proyectos-->
+<section id="portafolio">
+    <!--1-->
+    <div class="Projects">
+        <img src="../src/imagenes/12.png" id="imgBurger">
         <div id="textP1">
-            <h1>BURGER QUEEN</h1>
-            <h2>Interfaz Web hecha para  que lxs meserxs de un restautante  puedan tomar nota de los pedidos usando </br>una tablet.</h2>
-            <button type="button" id="btnP1Demo"><a href="https://github.com/luzciel/Burgen-queen"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP1Code"><a href="https://github.com/luzciel/Burgen-queen"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">BURGER QUEEN</h1>
+            <h2 class="projectText">Interfaz Web hecha para que l@s meser@s de un restautante puedan tomar nota de los pedidos usando
+                una tablet.</h2>
+            <button type="button" id="btnP1Demo"><a href="https://github.com/luzciel/Burgen-queen">
+                    <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP1Code"><a href="https://github.com/luzciel/Burgen-queen">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
     </div>
-    <!--2-->  
-    <div class="proyeto2">
-        <img src="../src/imagenes/13.png" id="imgONU" >
+    <!--2-->
+    <div class="Projects">
+    <hr >
+        <img src="../src/imagenes/13.png" id="imgONU">
         <div id="textP2">
-            <h1>ONU MUJERES - TU OPORTUNIDAD</h1>
-            <h2>Red social exclusiva que  facilita la comunicación entre las</br> mujeres del programa tu oportunidad.</h2>
-            <button type="button" id="btnP2Demo"><a href="https://asmedina24.github.io/ONU-mujeres/src/"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP2Code"><a href="https://github.com/erikaArango/ONU-mujeres"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">ONU MUJERES - TU OPORTUNIDAD</h1>
+            <h2 class="projectText">Red social exclusiva que facilita la comunicación entre las</br> mujeres del programa tu oportunidad.
+            </h2>
+            <button type="button" id="btnP2Demo"><a href="https://asmedina24.github.io/ONU-mujeres/src/">
+                <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP2Code"><a href="https://github.com/erikaArango/ONU-mujeres">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
     </div>
-    <!--3--> 
-    <div class="proyeto3">
-        <img src="../src/imagenes/14.png" id="imgSocialVeg" >
+    <hr >
+    <!--3-->
+    <div class="Projects">
+        <img src="../src/imagenes/14.png" id="imgSocialVeg">
         <div id="textP3">
-            <h1>SOCIAL VEG</h1>
-            <h2>Sitio Web Responsive para vegetarianos, que permite </br>intercambiar y compartir información, imágenes, recetas, y</br> experiencias  relacionadas al estilo de vida veg.</h2>
-            <button type="button" id="btnP3Demo"><a href="https://social-veg.web.app/"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP3Code"><a href="https://github.com/erikaArango/SCL015-social-network"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">SOCIAL VEG</h1>
+            <h2 class="projectText">Sitio Web Responsive para vegetarianos, que permite </br>intercambiar y compartir
+                información, imágenes, recetas, y</br> experiencias relacionadas al estilo de vida veg.</h2>
+            <button type="button" id="btnP3Demo"><a href="https://social-veg.web.app/">
+                <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP3Code"><a href="https://github.com/erikaArango/SCL015-social-network">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
-    </div> 
-    <!--4--> 
-    <div class="proyeto4">
-        <img src="../src/imagenes/16.png" id="imgPokedatos" >
+    </div>
+    <hr>
+    <!--4-->
+    <div class="Projects">
+        <img src="../src/imagenes/16.png" id="imgPokedatos">
         <div id="textP4">
-            <h1>POKEDATOS</h1>
-            <h2>Web  para los fans de la serie Pokemon que facilita la </br>búsqueda y visualización de  información y estadísticas </br> de pokemones según los requerimientos del usuario.</h2>
-            <button type="button" id="btnP4Demo"><a href="https://luzciel.github.io/POKEDATOS/"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP4Code"><a href="https://github.com/erikaArango/SCL015-data-lovers/tree/Erika"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">POKEDATOS</h1>
+            <h2 class="projectText">Web para los fans de la serie Pokemon que facilita la </br>búsqueda y visualización de información y
+                estadísticas </br> de pokemones según los requerimientos del usuario.</h2>
+            <button type="button" id="btnP4Demo"><a href="https://luzciel.github.io/POKEDATOS/">
+                <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP4Code"><a href="https://github.com/erikaArango/SCL015-data-lovers/tree/Erika">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
-    </div> 
-    <!--5--> 
-    <div class="proyeto5">
-        <img src="../src/imagenes/15.png" id="imgCipher" >
+    </div>
+    <hr >
+    <!--5-->
+    <div class="Projects">
+        <img src="../src/imagenes/15.png" id="imgCipher">
         <div id="textP5">
-            <h1>CIPHER ENAMORADOS</h1>
-            <h2>sitio Web que permite cifrar y descifrar mensajes entre</br> enamorados, por medio del método Cifrado Cesar. </h2>
-            <button type="button" id="btnP5Demo"><a href="https://erikaarango.github.io/SCL015-cipher/src/index.html"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP5Code"><a href="https://github.com/erikaArango/SCL015-cipher"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">CIPHER ENAMORADOS</h1>
+            <h2 class="projectText">sitio Web que permite cifrar y descifrar mensajes entre</br> enamorados, por medio del método Cifrado
+                Cesar. </h2>
+            <button type="button" id="btnP5Demo"><a href="https://erikaarango.github.io/SCL015-cipher/src/index.html">
+                <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP5Code"><a href="https://github.com/erikaArango/SCL015-cipher">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
-    </div> 
-    <!--6--> 
-    <div class="proyeto6">
-        <img src="../src/imagenes/17.png" id="imgTrivia" >
+    </div>
+    <hr >
+    <!--6-->
+    <div class="Projects">
+        <img src="../src/imagenes/17.png" id="imgTrivia">
         <div id="textP6">
-            <h1>TRIVIA DE LA TIERRA </h1>
-            <h2>Juego realizado para niños escolares, que permite responder distintas </br>preguntas sobre la tierra y el espacio, escogiendo sus respuestas de</br>una lista de alternativas. </h2>
-            <button type="button" id="btnP6Demo"><a href="https://repl.it/@KidaniVdD/SnarlingBogusRecovery?from=notifications#script.js"><h3>DEMO</h3></a></button>
-            <button type="button" id="btnP6Code"><a href="https://github.com/erikaArango/trivia"><h3>CODE</h3></a></button>
+            <h1 class="projectTitle">TRIVIA DE LA TIERRA </h1>
+            <h2 class="projectText">Juego realizado para niños escolares, que permite responder distintas </br>preguntas sobre la tierra y
+                el espacio, escogiendo sus respuestas de</br>una lista de alternativas. </h2>
+            <button type="button" id="btnP6Demo"><a
+                    href="https://repl.it/@KidaniVdD/SnarlingBogusRecovery?from=notifications#script.js">
+                    <h3 class="buttonFont">DEMO</h3>
+                </a></button>
+            <button type="button" id="btnP6Code"><a href="https://github.com/erikaArango/trivia">
+                <h3 class="buttonFont">CODE</h3>
+                </a></button>
         </div>
-    </div> 
+    </div>
 
 </section>
-    <!--About-->
-   <section id="about">
-        <img src="../src/imagenes/log.png" >
-        <div class="aboutMe">
-            <img src="../src/imagenes/yo.png" id="imgAbout" >
-            <div id="textAbout">
-                <h2>Soy Desarrolladora Web, y Tecnico en Enfermería, soy una persona con gran interés por la tecnología y el cuidado de la vida, me apasiona    mi trabajo y saber que puedo contribuir al bienestar de quien lo necesite.</br></br>Tengo gran capacidad de liderazgo, comunicación, organización y planificación. Me gusta enfrentarme a nuevos desafíos, empleando mi capacidad de análisis y solución de problemas. Soy proactiva, empática y flexible, esto ha sido una gran herramienta cuando me enfrento a desafios en equipo.</br></br>Me encanta el deporte, la naturaleza, la lectura, la meditacion y la vida sana.</br></br>Creo firmemente que desde la tecnología puedo aportar soluciones que contribuyan a participar de crear un mundo mejor.</h2>
-                <button type="button" id="cv"><a href=""><h3>CURRICULUM VITAE</h3></a></button>
-            </div>
-        </div> 
-  </section>
-
-  <img src="../src/imagenes/log.png" id="log" >
-  <!--Herramientas-->
-  <section id="herramientas">
-  <p class="sub-title ">HERRAMIENTAS</p>
-
-        <div class="skills col mx-auto text-white mt-5">
-            <div class="icons" data-aos="zoom-in" data-aos-duration="2000">
-                <i class="devicon-javascript-plain "></i>
-                <i class="devicon-html5-plain-wordmark "></i>
-                <i class="devicon-css3-plain-wordmark "></i>
-                <i class="devicon-bootstrap-plain-wordmark "></i>
-                <i class="devicon-github-plain-wordmark "></i>
-            </div>
+<!--About-->
+<section id="about">
+    <div class="aboutMe">
+        <img src="../src/imagenes/yo.png" id="imgAbout">
+        <div id="textAbout">
+            <h2>Soy Desarrolladora Web, y Tecnico en Enfermería, soy una persona con gran interés por la tecnología y el
+                cuidado de la vida, me apasiona mi trabajo y saber que puedo contribuir al bienestar de quien lo
+                necesite.</br></br>Tengo gran capacidad de liderazgo, comunicación, organización y planificación. Me
+                gusta enfrentarme a nuevos desafíos, empleando mi capacidad de análisis y solución de problemas. Soy
+                proactiva, empática y flexible, esto ha sido una gran herramienta cuando me enfrento a desafios en
+                equipo.</br></br>Me encanta el deporte, la naturaleza, la lectura, la meditacion y la vida
+                sana.</br></br>Creo firmemente que desde la tecnología puedo aportar soluciones que contribuyan a
+                participar de crear un mundo mejor.</h2>
+            <button type="button" id="cv"><a href="">
+                <h3 class="buttonFont">CURRICULUM VITAE</h3>
+                </a></button>
         </div>
-</section>       
+    </div>
+</section>
+
+<!--Herramientas-->
+<section id="herramientas">
+    <p class="sub-title ">HERRAMIENTAS</p>
+
+    <div class="skills col mx-auto text-white mt-5">
+        <div class="icons" data-aos="zoom-in" data-aos-duration="2000">
+            <i class="devicon-javascript-plain "></i>
+            <i class="devicon-html5-plain-wordmark "></i>
+            <i class="devicon-css3-plain-wordmark "></i>
+            <i class="devicon-bootstrap-plain-wordmark "></i>
+            <i class="devicon-github-plain-wordmark "></i>
+        </div>
+    </div>
+</section>
 
 <section id="contact">
     <div data-aos="flip-left" data-aos-duration="2000" class="col-12 col-md-7 mx-auto pt-4">
@@ -148,20 +195,26 @@
             <strong>CONTACTAME</strong>
         </p>
         <div class="p-4 ">
-        <p>
-            <a href="https://www.linkedin.com/in/erika-alejandra-arango-velez-433609208/" target="_blank"><i class="fab fa-linkedin "></i></a>
-            <a href="https://github.com/erikaArango" target="_blank"><i class="fab fa-github "></i></a>
-        </p>
-        <p class="email">erikaarango.developer@gmail.com</p>
+            <p>
+                <a href="https://www.linkedin.com/in/erika-alejandra-arango-velez-433609208/" target="_blank"><i
+                        class="fab fa-linkedin "></i></a>
+                <a href="https://github.com/erikaArango" target="_blank"><i class="fab fa-github "></i></a>
+            </p>
+            <p class="email">erikaarango.developer@gmail.com</p>
         </div>
     </div>
-</section>         
+</section>
 
 
-  <body>
+<body>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
