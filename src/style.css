@@ -19,6 +19,7 @@ left: 168px;
 border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
+/*fondo del navbar*/
 .navbar-expand-lg {
   background-color:#fff;
   height: 57px;
@@ -112,75 +113,81 @@ nav i {
   .projectText{
     font-family: Poppins;
     font-size: 20px;
+    width: 1000px;
   }
 
+  
+
   #imgBurger{
-    width: 238px;
-    height: 238px;
-    margin: 1px 123px 96px 267px;
+    width: 200px;
+    height: 200px;
+    margin: 50px 123px 96px 267px;
   }
 
   #imgONU{
-    width: 238px;
-    height: 238px;
+    width: 200px;
+    height: 200px;
     margin: 33px 1001px;
   }
 
   #imgSocialVeg{
-    width: 238px;
-    height: 238px;
-    margin: 1px 123px 96px 267px;
+    width: 200px;
+    height: 200px;
+    margin: 33px 123px 96px 267px;
   }
   
   #imgPokedatos{
-    width: 238px;
-    height: 238px;
+    width: 200px;
+    height: 200px;
     margin: 33px 1001px;
   }
 
   #imgCipher{
-    width: 238px;
-    height: 238px;
-    margin: 1px 123px 96px 267px;
+    width: 200px;
+    height: 200px;
+    margin: 33px 123px 96px 267px;
   }
 
   #imgTrivia{
-    width: 238px;
-    height: 238px;
+    width: 200px;
+    height: 200px;
     margin: 33px 1001px;
   }
 
 
 
   #textP1{
-    margin: -297px 339px 10px 609px;
+    margin: -274px 339px 10px 609px;
   }
 
   #textP3{
-    margin: -297px 339px 10px 609px;
+    margin: -279px 339px 10px 609px;
   }
 
   #textP5{
-    margin: -188px 339px 10px 536px;
+    margin: -260px 339px 10px 609px;
   }
 
   #textP2{
-    margin: -235px 26px 70px 305px;
+    margin: -205px 26px 70px 305px;
+
   }
 
   #textP4{
-    margin: -321px 23px 71px 131px;
+    margin: -219px 23px 71px 305px;
   }
 
   #textP6{
-    margin: -321px 22px 70px 9px;
+    margin: -208px 22px 70px 305px;
   }
     
 
   .Projects{
-    height: 233px;
-    margin: 9px;
+    height: 230px;
+  }
 
+  .Project1{
+    height: 252px;
   }
     
 
@@ -327,27 +334,29 @@ nav i {
   }
 
   #cv{
-    width: 205px;
-    height: 56px;
-    margin: 10px 10px;
+    width: 76px;
+    height: 35px;
+    margin: -28px 25px 114px 1303px;
     background: rgba(33, 205, 180, 0.98);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
     border-radius: 49px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: #FFFFFF;
-    border-style: unset
+    border-style: unset;
   }
 
   /*About me*/
 
   #imgAbout{
-    margin: 72px 14px 13px 191px;
+    margin: 160px 14px 13px 191px;
   }
 
-  #textAbout{
-    margin: -321px 22px 70px 9px;
+  .textAbout{
+    margin: -428px 24px 20px 653px;
+    font-family: Poppins;
+    font-size: 23px;
   }
 
   .sub-title {
@@ -397,3 +406,4 @@ p {
     margin-bottom: 1rem;
     color: #9C1B7E;
 }
+
