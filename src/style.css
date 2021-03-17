@@ -92,6 +92,14 @@ nav i {
     border-style: unset;
 }
 
+.h5conoceme{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 2px;
+}
+
 #containerHome{
     width: 200vh;
     height: 99vh;
@@ -357,6 +365,7 @@ nav i {
     margin: -428px 24px 20px 653px;
     font-family: Poppins;
     font-size: 23px;
+    width: 700px;
   }
 
   .sub-title {
