@@ -17,11 +17,13 @@ width: 1082px;
 height: 0px;
 left: 168px;
 border: 1px solid rgba(0, 0, 0, 0.25);
+
 }
 
 /*fondo del navbar*/
 .navbar-expand-lg {
   background-color:#fff;
+  box-shadow: 0 10px 14px -7px #5b5b5f;
   height: 57px;
 }
 
@@ -77,13 +79,14 @@ nav i {
 
 .conoceme{
     position: absolute;
-    width: 205px;
+    width: 246px;
     height: 56px;
     left: 780px;
     top: 511px;
     margin: 34px 32px;
     background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
+    text-shadow: 0 1px rgba(33, 205, 180, 0.98);
     border-radius: 49px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -129,7 +132,7 @@ nav i {
   #imgBurger{
     width: 200px;
     height: 200px;
-    margin: 50px 123px 96px 267px;
+    margin: 66px 123px 96px 267px;
   }
 
   #imgONU{
@@ -195,7 +198,7 @@ nav i {
   }
 
   .Project1{
-    height: 252px;
+    height: 259px;
   }
     
 
@@ -204,7 +207,7 @@ nav i {
   #btnP1Demo{
     color:black;
     background: rgba(250, 221, 52, 0.69);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -215,7 +218,7 @@ nav i {
   #btnP1Code{
     color:black;
     background: rgba(250, 221, 52, 0.69);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -226,7 +229,7 @@ nav i {
   #btnP2Demo{
     color:black;
     background:rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 31px 8px 213px;
@@ -237,7 +240,7 @@ nav i {
   #btnP2Code{
     color:black;
     background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -248,7 +251,7 @@ nav i {
   #btnP3Demo{
     color:black;
     background: #EF186E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -259,7 +262,7 @@ nav i {
   #btnP3Code{
     color:black;
     background: #EF186E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -270,7 +273,7 @@ nav i {
   #btnP4Demo{
     color:black;
     background: #9C1B7E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -281,7 +284,7 @@ nav i {
   #btnP4Code{
     color:black;
     background: #9C1B7E;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -292,7 +295,7 @@ nav i {
   #btnP5Demo{
     color:black;
     background: rgba(250, 221, 52, 0.69);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -303,7 +306,7 @@ nav i {
   #btnP5Code{
     color:black;
     background: rgba(250, 221, 52, 0.69);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -315,7 +318,7 @@ nav i {
   #btnP6Demo{
     color:black;
     background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -326,7 +329,7 @@ nav i {
   #btnP6Code{
     color:black;
     background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
@@ -342,11 +345,11 @@ nav i {
   }
 
   #cv{
-    width: 76px;
-    height: 35px;
-    margin: -28px 25px 114px 1303px;
+    width: 281px;
+    height: 59px;
+    margin: -28px 25px 114px 1003px;
     background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 49px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -355,6 +358,15 @@ nav i {
     border-style: unset;
   }
 
+  .h6Cv{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 2px;
+
+  }
+ 
   /*About me*/
 
   #imgAbout{
@@ -362,7 +374,7 @@ nav i {
   }
 
   .textAbout{
-    margin: -428px 24px 20px 653px;
+    margin: -460px 24px 20px 653px;
     font-family: Poppins;
     font-size: 23px;
     width: 700px;
