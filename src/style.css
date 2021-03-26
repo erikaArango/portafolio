@@ -430,3 +430,29 @@ p {
     color: #9C1B7E;
 }
 
+/* formato responsive para table */  
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .conoceme{
+    margin: 775px 32px 10px 672px;
+    width: 268px;
+    height: 72px;
+    font-size: 85px;
+  }
+
+  #containerHome{
+    width: 542vh;
+    height: 379vh;
+  }
+
+  #logo {
+    margin: 688px 90px;
+    width: 326vw;
+    height: 215vh;
+  }
+}
+
+/* formato responsive para celular galaxy 8 plus */
+@media screen and (max-width: 415px) {
+
+
+}
