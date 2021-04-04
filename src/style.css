@@ -85,7 +85,7 @@ nav i {
     height: 56px;
     left: 780px;
     top: 511px;
-    margin: 34px 32px;
+    margin: 182px 259px;
     background: rgba(33, 205, 180, 0.98);
     box-shadow: 0 10px 14px -7px #5b5b5f;
     text-shadow: 0 1px rgba(33, 205, 180, 0.98);
@@ -113,14 +113,13 @@ nav i {
 }
 
 #logo{
-    margin: 114px 230px;
-    width: 57vw;
-    height: 50vh;
+  margin: 173px 254px;
+  width: 57vw;
   }
 
   .projectTitle{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     margin: -8px 0px 24px;
   }
 
@@ -147,7 +146,7 @@ nav i {
   #imgSocialVeg{
     width: 200px;
     height: 200px;
-    margin: -6px 123px 96px 267px;
+    margin: 14px 123px 96px 267px;
   }
   
   #imgPokedatos{
@@ -159,7 +158,7 @@ nav i {
   #imgCipher{
     width: 200px;
     height: 200px;
-    margin: 33px 123px 96px 267px;
+    margin: 16px 123px 96px 267px;
   }
 
   #imgTrivia{
@@ -168,18 +167,16 @@ nav i {
     margin: 33px 1001px;
   }
 
-
-
   #textP1{
-    margin: -274px 339px 10px 609px;
+    margin: -287px 339px 10px 609px;
   }
 
   #textP3{
-    margin: -279px 339px 10px 609px;
+    margin: -283px 339px 10px 609px;
   }
 
   #textP5{
-    margin: -260px 339px 10px 609px;
+    margin: -274px 339px 10px 609px;
   }
 
   #textP2{
@@ -188,11 +185,11 @@ nav i {
   }
 
   #textP4{
-    margin: -219px 23px 71px 305px;
+    margin: -246px 23px 71px 305px;
   }
 
   #textP6{
-    margin: -208px 22px 70px 305px;
+    margin: -225px 22px 70px 305px;
   }
     
 
@@ -343,14 +340,14 @@ nav i {
   .buttonFont{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 27px;
     color:black;
   }
 
   #cv{
     width: 281px;
     height: 59px;
-    margin: -28px 25px 114px 530px;
+    margin: 20px 25px 114px 767px;
     background: rgba(33, 205, 180, 0.98);
     box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 49px;
@@ -373,14 +370,14 @@ nav i {
   /*About me*/
 
   #imgAbout{
-    margin: 160px 14px 13px -4px;
+    margin: 261px 14px 13px 75px;
   }
 
   .textAbout{
-    margin: 113px 24px 20px 157px;
+    margin: 207px 24px 20px 157px;
     font-family: Poppins;
-    font-size: 23px;
-    width: 700px;
+    font-size: 28px;
+    width: 47vw;
   }
 
   .sub-title {
@@ -432,7 +429,7 @@ p {
 }
 
 /* formato responsive para table */  
-@media screen and (max-width: 768px) and (min-width: 415px) {
+@media screen and (min-width: 701px) and (max-width: 1024px) {
   .conoceme{
     margin: 775px 32px 10px 672px;
     width: 268px;
@@ -446,14 +443,116 @@ p {
   }
 
   #logo {
-    margin: 688px 90px;
-    width: 326vw;
-    height: 215vh;
+    width: 288vw;
+    margin: 1057px 0px;
   }
 }
 
-/* formato responsive para celular galaxy 8 plus */
-@media screen and (max-width: 415px) {
+/* formato responsive para celular  */
+@media screen and (min-width: 320px) and (max-width: 700px){
 
+  .collapse:not(.show) {
+    display: block;
+}
+
+#logo {
+  margin: 89px -40px;
+  width: 297vw;
+}
+
+.conoceme{
+  margin: 10px -267px;
+}
+
+#log{
+  margin: 8px 15px 32px 559px;
+}
+
+#portafolio{
+  margin: 10px;
+}
+
+.Project1{
+  margin: 0px 10px 0px -223px;
+}
+.Projects{
+  margin: 0px 10px 0px -223px;
+}
+
+#textP1{
+  margin: -334px 339px 10px 522px;
+}
+
+.projectText {
+  font-size: 35px;
+  width: 86vh;
+}
+
+.Projects {
+  margin: 160px 10px 0px -223px;
+}
+.projectTitle {
+  font-size: 37px;
+}
+#imgONU {
+  margin: 117px 827px;
+}
+
+#textP2 {
+  margin: -382px 26px 70px 291px;
+}
+
+#imgSocialVeg {
+  margin: 216px 123px 96px 267px;
+}
+
+hr{
+  display: none;
+}
+
+#textP3 {
+  margin: -390px 339px 10px 539px;
+}
+#textP4 {
+  margin: -654px 23px 71px 285px;
+}
+
+#imgPokedatos {
+  margin: 370px 827px;
+}
+
+#imgCipher {
+  margin: 416px 123px 96px 267px;
+}
+
+#textP5 {
+  margin: -274px 339px 10px 508px;
+}
+
+#imgTrivia {
+  margin: 513px 845px;
+}
+
+#textP6 {
+  margin: -761px 22px 70px 305px;
+}
+
+#imgAbout {
+  margin: 825px 14px 13px 199px;
+}
+
+.textAbout {
+  margin: 84px 24px 20px 0px;
+  width: 236vw;
+}
+
+#cv{
+  margin: 47px 25px 114px 256px;
+}
+
+#herramientas {
+  margin: 13px 0px;
+  width: 282vw;
+}
 
 }
