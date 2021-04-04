@@ -185,7 +185,7 @@ nav i {
   }
 
   #textP4{
-    margin: -246px 23px 71px 305px;
+    margin: -236px 23px 71px 305px;
   }
 
   #textP6{
@@ -428,25 +428,6 @@ p {
     color: #9C1B7E;
 }
 
-/* formato responsive para table */  
-@media screen and (min-width: 701px) and (max-width: 1024px) {
-  .conoceme{
-    margin: 775px 32px 10px 672px;
-    width: 268px;
-    height: 72px;
-    font-size: 85px;
-  }
-
-  #containerHome{
-    width: 542vh;
-    height: 379vh;
-  }
-
-  #logo {
-    width: 288vw;
-    margin: 1057px 0px;
-  }
-}
 
 /* formato responsive para celular  */
 @media screen and (min-width: 320px) and (max-width: 700px){
@@ -615,4 +596,255 @@ hr{
   width: 45vw;
   height: 7vh;
 }
+}
+
+/* formato responsive para table */  
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .conoceme {
+    margin: 1259px 32px 10px 411px;
+    width: 509px;
+    height: 135px;
+  }
+
+  #log {
+    margin: 4px 15px 38px 32px;
+  }
+
+  .h5conoceme {
+    font-size: 58px;
+}
+
+  #containerHome{
+    width: 542vh;
+    height: 379vh;
+  }
+
+  #logo {
+    width: 288vw;
+    margin: 699px -192px;
+  }
+
+  #imgBurger {
+    width: 60vw;
+    height: 42vh;
+    margin: 170px 0px 0px 122px;
+  }
+
+  #textP1 {
+    margin: -412px 339px 10px 687px;
+    width: 79vw;
+  }
+
+  #imgONU{
+    width: 60vw;
+    height: 42vh;
+    margin: 556px 0px 0px 1280px;
+  }
+
+  #imgSocialVeg{
+    width: 60vw;
+    height: 42vh;
+    margin: 994px 0px 0px 122px
+  }
+  
+  #imgPokedatos{
+    width: 60vw; 
+    height: 42vh;
+    margin: 1483px 0px 0px 1280px;
+  }
+
+  #imgCipher{
+    width: 60vw;
+    height: 42vh;
+    margin: 2020px 0px 0px 122px;
+  }
+
+  #imgTrivia{
+    width: 60vw;
+    height: 42vh;
+    margin: 2546px 0px 0px 1280px;
+  }
+
+  .projectTitle {
+    font-size: 59px;
+  }
+
+  #textP2 {
+    margin: -478px 26px 70px 128px;
+}
+
+  #btnP1Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP1Code{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP2Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP2Code{
+    width: 23vw;
+    height: 6vh;
+    margin: 19px 10px 10px 74px;
+  }
+  
+  #btnP3Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP3Code{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP4Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP4Code{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP5Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP5Code{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP6Demo{
+    width: 23vw;
+    height: 6vh;
+  }
+  
+  #btnP6Code{
+    width: 23vw;
+    height: 6vh;
+  }
+
+  .projectText {
+    font-size: 52px;
+  }
+
+  #textP3 {
+    margin: -478px 339px 10px 687px;
+    width: 79vw;
+  }
+   
+  #textP5 {
+    margin: -419px 339px 10px 687px;
+    width: 96vw;
+}
+
+
+#textP6 {
+  margin: -461px 22px 70px 305px;
+}
+
+#imgAbout {
+  margin: 3233px 14px 13px 538px;
+  width: 113vw;
+}
+
+.textAbout {
+  margin: 4191px 24px 20px -96px;
+  font-size: 55px;
+  width: 216vw;
+}
+
+#cv {
+  width: 625px;
+  height: 151px;
+  margin: 34px 25px 114px 461px;
+}
+
+.h6Cv {
+font-size: 48px;
+}
+
+#herramientas {
+  margin: 510px 10px;
+  width: 267vw;
+}
+
+.sub-title {
+  font-size: 6.5rem;
+  margin: 130px;
+}
+
+.skills {
+  height: 61vh;
+}
+
+.skills i {
+  font-size: 7rem;
+  line-height: 2;
+  margin: 7.5rem;
+}
+
+p{
+  font-size: 5rem;
+}
+
+.fab fa-github {
+  width: 10vw;
+}
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 2025px) {
+
+  #logo {
+    margin: 88px 254px;
+    width: 50vw;
+}
+
+#log {
+  margin: 38px 15px 38px 241px;
+}
+
+.conoceme{
+  margin: 33px 738px;
+}
+
+#imgAbout {
+  margin: 261px 14px 13px -16px;
+}
+
+.textAbout {
+  margin: 207px 24px 20px 86px;
+  font-size: 25px;
+  
+}
+
+#cv{
+  height: 47px;
+  margin: 20px 25px 114px 562px;
+}
+
+.sub-title {
+  margin: 0px 0px 0px -418px;
+}
+
+.skills {
+  height: 61vh;
+}
+
+.nav-item{
+  margin: 0px 0px 0px 0px;
+}
+
 }
