@@ -495,11 +495,11 @@ p {
   font-size: 37px;
 }
 #imgONU {
-  margin: 117px 827px;
+  margin: 152px 827px;
 }
 
 #textP2 {
-  margin: -382px 26px 70px 291px;
+  margin: -450px 26px 70px 291px;
 }
 
 #imgSocialVeg {
@@ -522,19 +522,19 @@ hr{
 }
 
 #imgCipher {
-  margin: 416px 123px 96px 267px;
+  margin: 512px 123px 96px 267px;
 }
 
 #textP5 {
-  margin: -274px 339px 10px 508px;
+  margin: -332px 339px 10px 508px;
 }
 
 #imgTrivia {
-  margin: 513px 845px;
+  margin: 629px 845px;
 }
 
 #textP6 {
-  margin: -761px 22px 70px 305px;
+  margin: -953px 22px 70px 305px;
 }
 
 #imgAbout {
@@ -555,4 +555,64 @@ hr{
   width: 282vw;
 }
 
+#btnP1Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP1Code{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP2Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP2Code{
+  width: 45vw;
+  height: 7vh;
+  margin: 19px 10px 10px 74px;
+}
+
+#btnP3Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP3Code{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP4Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP4Code{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP5Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP5Code{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP6Demo{
+  width: 45vw;
+  height: 7vh;
+}
+
+#btnP6Code{
+  width: 45vw;
+  height: 7vh;
+}
 }
