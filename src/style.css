@@ -347,7 +347,7 @@ nav i {
   #cv{
     width: 281px;
     height: 59px;
-    margin: 20px 25px 114px 767px;
+    margin: 52px 25px 114px 490px;
     background: rgba(33, 205, 180, 0.98);
     box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 49px;
@@ -427,6 +427,17 @@ p {
     margin-bottom: 1rem;
     color: #9C1B7E;
 }
+
+#herramientas{
+  height: 100vh;
+  margin: 815px 0px 0px 0px;
+}
+
+
+
+/* .icons{
+  width: 20px;
+} */
 
 
 /* formato responsive para celular  */
