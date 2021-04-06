@@ -1,3 +1,5 @@
 # PORTAFOLIO 
 
-![logo](https://github.com/erikaArango/portafolio/blob/main/src/imagenes/mi%20logo%20developer.png)
+![logo](https://i.imgur.com/RZfcVci.png)
+
+![Link al Sitio](https://erikaarango.github.io/portafolio/src/)
