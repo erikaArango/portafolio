@@ -13,13 +13,11 @@ nav {
 }
 
 hr{
-width: 1082px;
+width: 60vw;
 height: 0px;
 left: 168px;
 border: 1px solid rgba(0, 0, 0, 0.25);
-margin: 10px 10px 10px 161px;
-
-
+margin: 10px 10px 10px 292px;
 }
 
 /*fondo del navbar*/
@@ -134,62 +132,62 @@ nav i {
   #imgBurger{
     width: 200px;
     height: 200px;
-    margin: 164px 123px 96px 267px;
+    margin: 164px 123px 96px 486px;
   }
 
   #imgONU{
     width: 200px;
     height: 200px;
-    margin: 0px 1001px;
+    margin: 0px 1162px;
   }
 
   #imgSocialVeg{
     width: 200px;
     height: 200px;
-    margin: 14px 123px 96px 267px;
+    margin: 14px 123px 96px 486px;
   }
   
   #imgPokedatos{
     width: 200px;
     height: 200px;
-    margin: 33px 1001px;
+    margin: 33px 1162px;
   }
 
   #imgCipher{
     width: 200px;
     height: 200px;
-    margin: 16px 123px 96px 267px;
+    margin: 16px 123px 96px 486px;
   }
 
   #imgTrivia{
     width: 200px;
     height: 200px;
-    margin: 33px 1001px;
+    margin: 33px 1162px;
   }
 
   #textP1{
-    margin: -287px 339px 10px 609px;
+    margin: -287px 339px 10px 810px;
   }
 
   #textP3{
-    margin: -283px 339px 10px 609px;
+    margin: -283px 339px 10px 810px;
   }
 
   #textP5{
-    margin: -274px 339px 10px 609px;
+    margin: -274px 339px 10px 810px;
   }
 
   #textP2{
-    margin: -174px 26px 70px 305px;
+    margin: -174px 26px 70px 506px;
 
   }
 
   #textP4{
-    margin: -236px 23px 71px 305px;
+    margin: -236px 23px 71px 506px;
   }
 
   #textP6{
-    margin: -225px 22px 70px 305px;
+    margin: -225px 22px 70px 506px;
   }
     
 
@@ -374,7 +372,7 @@ nav i {
   }
 
   .textAbout{
-    margin: 207px 24px 20px 157px;
+    margin: 173px 24px 20px 157px;
     font-family: Poppins;
     font-size: 28px;
     width: 47vw;
@@ -411,6 +409,7 @@ nav i {
     text-align: center;
     background-color: rgba(33, 205, 180, 0.98);
     padding: 3rem;
+    margin: 0px 0px 127px 0px;
 }
 
 .skills i {
@@ -429,10 +428,13 @@ p {
 }
 
 #herramientas{
-  height: 100vh;
-  margin: 815px 0px 0px 0px;
+  height: 76vh;
+  width: 106vw;
 }
 
+#contact{
+  height: 30vh;
+}
 
 
 /* .icons{
