@@ -1,8 +1,7 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
     font-weight: bold; 
-    font-size: 12px;
-    position: relative;
+    font-size: 12px; */
 
 }
 
@@ -72,29 +71,22 @@ nav i {
 }
 
 
-.miLogo{
-    width: 400vh;
-    height: 400vh;
+#logo{
+    width: 65vw;
+    margin: 106px 0px 0px 138px;
 }
 
-.conoceme{
-    position: absolute;
-    width: 246px;
-    height: 56px;
-    left: 780px;
-    top: 511px;
-    margin: 182px 259px;
-    background: rgba(33, 205, 180, 0.98);
-    box-shadow: 0 10px 14px -7px #5b5b5f;
-    text-shadow: 0 1px rgba(33, 205, 180, 0.98);
-    border-radius: 49px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: #FFFFFF;
-    border-style: unset;
-    cursor: pointer;
-}
+ .conoceme{
+  width: 246px;
+  height: 56px;
+  background: rgba(33, 205, 180, 0.98);
+  box-shadow: 0 10px 14px -7px #5b5b5f;
+  text-shadow: 0 1px rgba(33, 205, 180, 0.98);
+  border-radius: 49px;
+  border-style: unset;
+  cursor: pointer;
+  margin: -13px 0px 0px 774px;
+} 
 
 .h5conoceme{
     font-family: 'Montserrat', sans-serif;
@@ -104,18 +96,8 @@ nav i {
     margin: 2px;
 }
 
-#containerHome{
-    width: 200vh;
-    height: 99vh;
-    display: flex;
-}
 
-#logo{
-  margin: 173px 254px;
-  width: 57vw;
-  }
-
-  .projectTitle{
+.projectTitle{
     font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     margin: -8px 0px 24px;
@@ -127,78 +109,72 @@ nav i {
     width: 1000px;
   }
 
-  
-
+  /*imagenes proyectos*/
   #imgBurger{
     width: 200px;
     height: 200px;
-    margin: 164px 123px 96px 486px;
+    margin:164px 123px 96px 182px;
   }
 
   #imgONU{
     width: 200px;
     height: 200px;
-    margin: 0px 1162px;
+    margin: 45px 999px;
   }
 
   #imgSocialVeg{
     width: 200px;
     height: 200px;
-    margin: 14px 123px 96px 486px;
+    margin: 14px 123px 96px 182px
   }
   
   #imgPokedatos{
     width: 200px;
     height: 200px;
-    margin: 33px 1162px;
+    margin: 33px 999px;
   }
 
   #imgCipher{
     width: 200px;
     height: 200px;
-    margin: 16px 123px 96px 486px;
+    margin: 16px 123px 96px 182px
   }
 
   #imgTrivia{
     width: 200px;
     height: 200px;
-    margin: 33px 1162px;
+    margin: 33px 999px;
   }
 
   #textP1{
-    margin: -287px 339px 10px 810px;
+    margin: -287px 339px 10px  593px;
   }
 
   #textP3{
-    margin: -283px 339px 10px 810px;
+    margin: -283px 339px 10px  593px;
   }
 
   #textP5{
-    margin: -274px 339px 10px 810px;
+    margin: -274px 339px 10px  593px;
   }
 
   #textP2{
-    margin: -174px 26px 70px 506px;
+    margin: -237px 13px 70px 255px;
 
   }
 
   #textP4{
-    margin: -236px 23px 71px 506px;
+    margin: -236px 23px 71px 255px;
   }
 
   #textP6{
-    margin: -225px 22px 70px 506px;
+    margin: -225px 22px 70px 255px
   }
-    
+  
+  hr{
+    width: 60vw;
+  }
 
-  .Projects{
-    height: 230px;
-  }
-
-  .Project1{
-    height: 359px;
-  }
-    
 
   /*botones code y demo*/
 
@@ -209,8 +185,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP1Code{
@@ -220,8 +196,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP2Demo{
@@ -231,8 +207,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 31px 8px 213px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP2Code{
@@ -242,8 +218,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP3Demo{
@@ -253,8 +229,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP3Code{
@@ -264,8 +240,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP4Demo{
@@ -275,8 +251,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP4Code{
@@ -286,8 +262,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP5Demo{
@@ -297,8 +273,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP5Code{
@@ -308,8 +284,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
 
@@ -320,8 +296,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;
+    width: 137px;
+    height: 37px;
   }
 
   #btnP6Code{
@@ -331,8 +307,8 @@ nav i {
     border-radius: 15px;
     border-style: unset;
     margin: 11px 34px 10px;
-    width: 7vw;
-    height: 4vh;s
+    width: 137px;
+    height: 37px;
   }
 
   .buttonFont{
@@ -342,17 +318,26 @@ nav i {
     color:black;
   }
 
+  /*About me*/
+
+  #imgAbout{
+    margin: 164px 14px 13px -10px;
+  }
+
+  .textAbout{
+    margin: 112px 0px 0px 111px;
+    font-family: Poppins;
+    font-size: 24px;
+    width: 52vw;
+  }
+
   #cv{
-    width: 281px;
-    height: 59px;
-    margin: 52px 25px 114px 490px;
+    width: 280px;
+    height: 49px;
+    margin: 14px 25px 114px 490px;
     background: rgba(33, 205, 180, 0.98);
     box-shadow: 0 10px 14px -7px #5b5b5f;
     border-radius: 49px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: #FFFFFF;
     border-style: unset;
   }
 
@@ -362,30 +347,11 @@ nav i {
     font-size: 20px;
     color: #FFFFFF;
     margin: 2px;
-
-  }
- 
-  /*About me*/
-
-  #imgAbout{
-    margin: 261px 14px 13px 75px;
   }
 
-  .textAbout{
-    margin: 173px 24px 20px 157px;
-    font-family: Poppins;
-    font-size: 28px;
-    width: 47vw;
-  }
-
-  .sub-title {
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-#contact a {
+  #contact a {
     color: #9C1B7E;
+    width: 30px;
 }
 
 #contact {
@@ -397,15 +363,11 @@ nav i {
     padding-bottom: 1rem;
 }
   
-#log{
-  margin: 38px 15px 38px 32px;
-}
-
-#herramientas{
+/* #herramientas{
     margin: 10px 10px;
-}
+} */
 
-  .skills {
+.skills {
     text-align: center;
     background-color: rgba(33, 205, 180, 0.98);
     padding: 3rem;
@@ -418,446 +380,21 @@ nav i {
     margin: 2.5rem;
 }
 
-p {
+#herramientas{
+    margin: 10px 10px;
     font-size: 1.5rem;
     line-height: 3rem;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 1rem;
     color: #9C1B7E;
+    padding-bottom: 1rem;
 }
 
-#herramientas{
-  height: 76vh;
-  width: 106vw;
+.sub-title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 #contact{
-  height: 30vh;
-}
-
-
-/* .icons{
-  width: 20px;
-} */
-
-
-/* formato responsive para celular  */
-@media screen and (min-width: 320px) and (max-width: 700px){
-
-  .collapse:not(.show) {
-    display: block;
-}
-
-#logo {
-  margin: 89px -40px;
-  width: 297vw;
-}
-
-.conoceme{
-  margin: 10px -267px;
-}
-
-#log{
-  margin: 8px 15px 32px 559px;
-}
-
-#portafolio{
-  margin: 10px;
-}
-
-.Project1{
-  margin: 0px 10px 0px -223px;
-}
-.Projects{
-  margin: 0px 10px 0px -223px;
-}
-
-#textP1{
-  margin: -334px 339px 10px 522px;
-}
-
-.projectText {
-  font-size: 35px;
-  width: 86vh;
-}
-
-.Projects {
-  margin: 160px 10px 0px -223px;
-}
-.projectTitle {
-  font-size: 37px;
-}
-#imgONU {
-  margin: 152px 827px;
-}
-
-#textP2 {
-  margin: -450px 26px 70px 291px;
-}
-
-#imgSocialVeg {
-  margin: 216px 123px 96px 267px;
-}
-
-hr{
-  display: none;
-}
-
-#textP3 {
-  margin: -390px 339px 10px 539px;
-}
-#textP4 {
-  margin: -654px 23px 71px 285px;
-}
-
-#imgPokedatos {
-  margin: 370px 827px;
-}
-
-#imgCipher {
-  margin: 512px 123px 96px 267px;
-}
-
-#textP5 {
-  margin: -332px 339px 10px 508px;
-}
-
-#imgTrivia {
-  margin: 629px 845px;
-}
-
-#textP6 {
-  margin: -953px 22px 70px 305px;
-}
-
-#imgAbout {
-  margin: 825px 14px 13px 199px;
-}
-
-.textAbout {
-  margin: 84px 24px 20px 0px;
-  width: 236vw;
-}
-
-#cv{
-  margin: 47px 25px 114px 256px;
-}
-
-#herramientas {
-  margin: 13px 0px;
-  width: 282vw;
-}
-
-#btnP1Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP1Code{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP2Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP2Code{
-  width: 45vw;
-  height: 7vh;
-  margin: 19px 10px 10px 74px;
-}
-
-#btnP3Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP3Code{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP4Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP4Code{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP5Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP5Code{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP6Demo{
-  width: 45vw;
-  height: 7vh;
-}
-
-#btnP6Code{
-  width: 45vw;
-  height: 7vh;
-}
-}
-
-/* formato responsive para table */  
-@media screen and (min-width: 701px) and (max-width: 1024px) {
-  .conoceme {
-    margin: 1259px 32px 10px 411px;
-    width: 509px;
-    height: 135px;
-  }
-
-  #log {
-    margin: 4px 15px 38px 32px;
-  }
-
-  .h5conoceme {
-    font-size: 58px;
-}
-
-  #containerHome{
-    width: 542vh;
-    height: 379vh;
-  }
-
-  #logo {
-    width: 288vw;
-    margin: 699px -192px;
-  }
-
-  #imgBurger {
-    width: 60vw;
-    height: 42vh;
-    margin: 170px 0px 0px 122px;
-  }
-
-  #textP1 {
-    margin: -412px 339px 10px 687px;
-    width: 79vw;
-  }
-
-  #imgONU{
-    width: 60vw;
-    height: 42vh;
-    margin: 556px 0px 0px 1280px;
-  }
-
-  #imgSocialVeg{
-    width: 60vw;
-    height: 42vh;
-    margin: 994px 0px 0px 122px
-  }
-  
-  #imgPokedatos{
-    width: 60vw; 
-    height: 42vh;
-    margin: 1483px 0px 0px 1280px;
-  }
-
-  #imgCipher{
-    width: 60vw;
-    height: 42vh;
-    margin: 2020px 0px 0px 122px;
-  }
-
-  #imgTrivia{
-    width: 60vw;
-    height: 42vh;
-    margin: 2546px 0px 0px 1280px;
-  }
-
-  .projectTitle {
-    font-size: 59px;
-  }
-
-  #textP2 {
-    margin: -478px 26px 70px 128px;
-}
-
-  #btnP1Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP1Code{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP2Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP2Code{
-    width: 23vw;
-    height: 6vh;
-    margin: 19px 10px 10px 74px;
-  }
-  
-  #btnP3Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP3Code{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP4Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP4Code{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP5Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP5Code{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP6Demo{
-    width: 23vw;
-    height: 6vh;
-  }
-  
-  #btnP6Code{
-    width: 23vw;
-    height: 6vh;
-  }
-
-  .projectText {
-    font-size: 52px;
-  }
-
-  #textP3 {
-    margin: -478px 339px 10px 687px;
-    width: 79vw;
-  }
-   
-  #textP5 {
-    margin: -419px 339px 10px 687px;
-    width: 96vw;
-}
-
-
-#textP6 {
-  margin: -461px 22px 70px 305px;
-}
-
-#imgAbout {
-  margin: 3233px 14px 13px 538px;
-  width: 113vw;
-}
-
-.textAbout {
-  margin: 4191px 24px 20px -96px;
-  font-size: 55px;
-  width: 216vw;
-}
-
-#cv {
-  width: 625px;
-  height: 151px;
-  margin: 34px 25px 114px 461px;
-}
-
-.h6Cv {
-font-size: 48px;
-}
-
-#herramientas {
-  margin: 510px 10px;
-  width: 267vw;
-}
-
-.sub-title {
-  font-size: 6.5rem;
-  margin: 130px;
-}
-
-.skills {
-  height: 61vh;
-}
-
-.skills i {
-  font-size: 7rem;
-  line-height: 2;
-  margin: 7.5rem;
-}
-
-p{
-  font-size: 5rem;
-}
-
-.fab fa-github {
-  width: 10vw;
-}
-
-}
-
-
-@media screen and (min-width: 1025px) and (max-width: 2025px) {
-
-  #logo {
-    margin: 88px 254px;
-    width: 50vw;
-}
-
-#log {
-  margin: 38px 15px 38px 241px;
-}
-
-.conoceme{
-  margin: 33px 738px;
-}
-
-#imgAbout {
-  margin: 261px 14px 13px -16px;
-}
-
-.textAbout {
-  margin: 207px 24px 20px 86px;
-  font-size: 25px;
-  
-}
-
-#cv{
-  height: 47px;
-  margin: 20px 25px 114px 562px;
-}
-
-.sub-title {
-  margin: 0px 0px 0px -418px;
-}
-
-.skills {
-  height: 61vh;
-}
-
-.nav-item{
-  margin: 0px 0px 0px 0px;
-}
-
+    margin: -87px 0px 0px 0px;
 }
